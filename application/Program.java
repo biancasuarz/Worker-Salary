@@ -24,7 +24,7 @@ public class Program {
         System.out.print("Base salary: ");
         double baseSalary = sc.nextDouble();
         Worker worker = new Worker(workerName, WorkerLevel.valueOf(workerLevel), baseSalary, new Department(departmentName));
-
+        //finalizar
 
 
     }
